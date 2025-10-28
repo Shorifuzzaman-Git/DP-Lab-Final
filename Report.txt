@@ -15,7 +15,7 @@ Break the Single Responsible Principle(SRP). UI.java and Calculator.java
 
  
 Task 2:
-UI.java class apply Prototype pattern.
+UI.java class apply Strategy Pattern.
 
 
 Task 3:
