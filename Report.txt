@@ -1,0 +1,25 @@
+Task 1:
+Code Smells:
+a)Class UI.java, Method name actionPerformed :
+Type of code smell ‘Large method’. The more lines found in a method, the harder it’s to figure out what the method does. This is the main reason for this refactoring
+
+b). Class UI.java, Method name actionPerformed :
+Type of code smell ‘Message chain’. 
+Message chain is a problem because :
+   The client depends on navigation structure rather than behavior.
+    If the internal structure changes, many parts of code break.
+    Makes code hard to read, test, and maintain.
+
+c) Duplication : Brack the DRY principle at UI.java (actionPerformed method) Repeat the same code again.
+Break the Single Responsible Principle(SRP). UI.java and Calculator.java
+
+ 
+Task 2:
+UI.java class apply Prototype pattern.
+
+
+Task 3:
+
+
+
+
